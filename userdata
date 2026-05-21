@@ -1,4 +1,7 @@
 #!/bin/bash -xe
+
+sudo su - 
+
 apt update -y
 apt install nodejs unzip git wget npm mysql-server -y
 
